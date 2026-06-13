@@ -30,6 +30,14 @@
     <div class="card">
       <h1>🧸 Hello, World!</h1>
       <p>I just built my first web page to track my Zootopia and Care Bear finds.</p>
+      <button onclick="updatePlushie()">Log New Plushie</button>
     </div>
+   
+   <script>
+  function updatePlushie() {
+    // This grabs the paragraph and changes the text inside it!
+    document.querySelector('p').innerText = "Look! I just added a vintage Care Bear to the vault! 🎉";
+  }
+</script>
   </body>
 </html>
