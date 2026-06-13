@@ -24,6 +24,24 @@
         width: 50%;
         margin: 0 auto; /* This centers the card */
       }
+      .profile-card {
+        background-color: #ffffff;
+        border: 2px solid #008CBA;
+        border-radius: 15px;
+        width: 40%;
+        margin: 20px auto;
+        padding: 15px;
+      }
+
+      .tag {
+        background-color: #ff9800;
+        color: white;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -32,7 +50,13 @@
       <p>I just built my first web page to track my Zootopia and Care Bear finds.</p>
       <button onclick="updatePlushie()">Log New Plushie</button>
     </div>
-   
+
+   <div class="profile-card">
+      <h2>🦔 Penny Prickles</h2>
+      <p class="tag">Exclusive Find</p>
+      <p>A very rare, spikey addition to the collection!</p>
+    </div>
+
    <script>
   function updatePlushie() {
     // This grabs the paragraph and changes the text inside it!
